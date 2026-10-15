@@ -4,7 +4,7 @@ from email.message import EmailMessage
 from zoneinfo import ZoneInfo
 
 KEYWORDS = ["Div. 4", "Div. 3", "Educational", "Div. 2"]
-WINDOW_HOURS = 24 * 14   # looks 14 days ahead for testing; change to 24 later
+WINDOW_HOURS = 24   # looks 14 days ahead for testing; change to 24 later
 IST = ZoneInfo("Asia/Kolkata")
 
 def upcoming_beginner_contests():
